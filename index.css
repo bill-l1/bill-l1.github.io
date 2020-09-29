@@ -7,6 +7,10 @@ a {
   text-decoration: none  !important;
 }
 
+html {
+  text-align: center;
+}
+
 body {
   /* background-color: #F5F5F5 !important; */
   background-image: url(clean-textile.png);
@@ -21,6 +25,12 @@ button {
 
 h1 {
     letter-spacing: 0.15em;
+}
+
+.content {
+  width: 90% !important;
+  max-width: 480px !important;
+  margin: 0 auto !important;
 }
 
 .messenger {
