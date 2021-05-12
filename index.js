@@ -1,7 +1,7 @@
 const DELAY = 15000;
 
 const TITLES = [
-  '2A cs student',
+  '2B cs student',
   'recording artist',
   'change-maker',
   'web developer',
@@ -11,6 +11,8 @@ const TITLES = [
   'music producer',
   'graphic designer',
   'dreamer',
+  'entrepreneur',
+  'leader',
 ];
 
 var currentTitles = TITLES.slice();
