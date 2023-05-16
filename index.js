@@ -1,7 +1,7 @@
 const DELAY = 15000;
 
 const TITLES = [
-  '2B cs student',
+  '3A cs student',
   'recording artist',
   'change-maker',
   'web developer',
