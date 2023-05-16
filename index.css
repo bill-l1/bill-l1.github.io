@@ -4,7 +4,7 @@ img {
 
 a {
   color: inherit !important;
-  text-decoration: none  !important;
+  text-decoration: none !important;
 }
 
 html {
@@ -16,7 +16,7 @@ body {
   background-image: url(clean-textile.png);
   background-repeat: repeat;
   letter-spacing: 0.1em !important;
-  font-family: 'Noto Serif SC', serif !important;
+  font-family: "Noto Serif SC", serif !important;
 }
 
 button {
@@ -24,7 +24,7 @@ button {
 }
 
 h1 {
-    letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
 }
 
 .content {
@@ -39,14 +39,18 @@ h1 {
 
 .footer {
   position: fixed;
-  /* background-color: #f0f0f0 !important; */
   background: repeating-linear-gradient(
-      45deg,
-      #f0f0f0,
-      #f0f0f0 10px,
-      #e3e3e3 10px,
-      #e3e3e3 20px
+    45deg,
+    #f0f0f0,
+    #f0f0f0 10px,
+    #e3e3e3 10px,
+    #e3e3e3 20px
   );
   width: 100%;
   bottom: 0;
+
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
