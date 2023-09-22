@@ -1,4 +1,4 @@
-img {
+.shadow-img {
   box-shadow: 7px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -12,11 +12,29 @@ html {
 }
 
 body {
-  /* background-color: #F5F5F5 !important; */
-  background-image: url(clean-textile.png);
-  background-repeat: repeat;
   letter-spacing: 0.1em !important;
   font-family: "Noto Serif SC", serif !important;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-image: url(clean-textile.png);
+  background-repeat: repeat;
+}
+
+.inverted {
+  background-color: #000 !important;
+}
+
+.inverted > *  {
+  color: white;
+}
+
+.inverted::before {
+  filter: invert(1);
 }
 
 button {
@@ -29,12 +47,37 @@ h1 {
 
 .content {
   width: 90% !important;
-  max-width: 480px !important;
   margin: 0 auto !important;
+}
+
+.slim {
+  max-width: 480px !important;
 }
 
 .messenger {
   line-height: 0.8em !important;
+}
+
+.readable {
+  letter-spacing: 0em !important;
+}
+
+.thumbnail {
+  max-height: 250px;
+  min-width: 250px;
+  object-fit: contain;
+}
+
+.year {
+  position: relative;
+}
+
+.year::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  border-top: 1px solid;
+  width: 30px;
 }
 
 .footer {

@@ -1,15 +1,18 @@
 const DELAY = 15000;
 
 const TITLES = [
-  '3A cs student',
+  '4A cs student',
+  'software engineer',
   'recording artist',
-  'change-maker',
   'web developer',
   'game developer',
   'mobile developer',
   'hip-hop dancer',
   'music producer',
   'graphic designer',
+  'grahics engineer',
+  'ml engineer',
+  'researcher',
   'dreamer',
   'entrepreneur',
   'leader',
