@@ -21,7 +21,7 @@ body::before {
   position: fixed;
   height: 100%;
   width: 100%;
-  background-image: url(clean-textile.png);
+  background-image: url(assets/clean-textile.png);
   background-repeat: repeat;
 }
 
