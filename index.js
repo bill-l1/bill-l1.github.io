@@ -10,7 +10,7 @@ const TITLES = [
   'hip-hop dancer',
   'music producer',
   'graphic designer',
-  'grahics engineer',
+  'graphics engineer',
   'ml engineer',
   'researcher',
   'dreamer',
