@@ -15,9 +15,25 @@ const Tag = {
 
 const entries = [
   {
+    title: "Resonance",
+    start: new Date(2024, 11),
+    end: null,
+    tags: [Tag.FULLSTACK],
+    description:
+      "Social media app for easily getting media recommendations from others. Reboot from 2021.",
+    img: "assets/resonance2.png",
+    links: [
+      {
+        icon: "fa-link",
+        text: "rsnc.social",
+        href: "https://rsnc.social/",
+      },
+    ],
+  },
+  {
     title: "CheatID",
     start: new Date(2024, 7),
-    end: null,
+    end: new Date(2024, 11),
     tags: [Tag.FULLSTACK],
     description:
       "Analytics and anti-cheat platform for live service game development.",

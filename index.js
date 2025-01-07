@@ -1,7 +1,7 @@
 const DELAY = 15000;
 
 const TITLES = [
-  "4B cs student",
+  "cs graduate",
   "software engineer",
   "recording artist",
   "web developer",
