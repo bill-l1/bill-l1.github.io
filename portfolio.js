@@ -17,7 +17,7 @@ const entries = [
   {
     title: "Resonance",
     start: new Date(2024, 11),
-    end: null,
+    end: new Date(2025, 4),
     tags: [Tag.FULLSTACK],
     description:
       "Social media app for easily getting media recommendations from others. Reboot from 2021.",
